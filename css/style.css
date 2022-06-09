@@ -30,7 +30,8 @@
 
 /* Reuseable components  */
 .transition-btn-here {
-  margin: 2rem 0;
+  margin: 1rem auto;
+  display: flex;
 }
 
 .proj-btn {
@@ -353,9 +354,6 @@ navbar {
 
 /* Main content here  */
 
-/* .main-data {
-  width: 99%;
-} */
 
 /* Banner at Home  */
 .banner-div {
@@ -493,6 +491,39 @@ navbar {
   }
 }
 
+/* Home page placement section  */
+.home-about{
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.home-about-info{
+  padding: 0 2rem;
+}
+
+.home-about-info p{
+  font-size: 18px;
+}
+
+.home-about-img img{
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+  .home-about-img img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+  .home-about-info{
+    padding-top: 1rem;
+    text-align: justify;
+  }
+  .home-about{
+    width: 95%;
+    flex-direction: column-reverse;
+  }
+}
 
 /* About page Css  */
 
