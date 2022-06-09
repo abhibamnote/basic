@@ -1,0 +1,116 @@
+    img {
+            
+        padding-bottom: 0px;
+        float: right;
+        height: 40px;
+        width: calc(50vw - 6px);
+        height: 90vh;
+        overflow: hidden;
+        position: relative;
+        transform: translate(-0%,-57%) scaleX(-1);
+        margin-top: 20px;
+    }
+        /* height: 600px;
+        width: 750px;
+        padding-top: 90px;
+        padding-left: 750px; */
+
+        .abc{
+            
+        text-align: left 10px;
+        text-align: start;
+        /* margin: 100px; */
+        margin-left: 200px;
+        margin: top;
+        margin-top: 20px;
+        }
+        .button{
+    position: relative;
+    padding: 12px 30px;
+    text-align: center;
+
+    background-color: #fff;
+    border: 1px solid #062233;
+    box-shadow: 4px 4px #062233;
+
+    height: 45px;
+    width: 275px;
+
+    font-size: 1.083rem;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 2.4px;
+
+    /* transition: transform .2s cubic-bezier(.23,1,.32,1),color .2s cubic-bezier(.23,1,.32,1),background-color .2s cubic-bezier(.23,1,.32,1),box-shadow .2s cubic-bezier(.23,1,.32,1); */
+    }
+    .button:hover {background-color: #062233}
+    * {
+    box-sizing: border-box;
+    }
+    h3 {
+    font-size: 1rem;
+    }
+    .username {
+    font-family: pragmatica,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #4f575c;
+    padding-top: 150px;
+
+
+    }
+
+    .password {
+    font-family: pragmatica,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: .917rem;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #4f575c;
+
+    } 
+
+    .inputusername{
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    height: 35px;
+    width: 275px;
+    }
+    .inputpassword{
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    height: 35px;
+    width: 275px;
+    }
+
+    .anotherpage{
+    padding: 10px; border: 2px solid rgb(244, 242, 242);
+    border-radius: 1.5px;
+    margin-left: 900px;
+    margin-top: 10px;
+    margin-bottom: 800px;
+    margin-right: 100px;
+    background-color: #fff;
+    width: 400px;
+    height: 100px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-170%,-70%);
+    text-decoration: none;
+
+    }
