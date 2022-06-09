@@ -488,8 +488,8 @@ navbar {
     padding: 1rem;
     width: 10rem;
   }
-  .container-split{
-    height: 60%;
+  .outer-split-div{
+    height: 60vh;
   }
 }
 
