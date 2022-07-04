@@ -39,6 +39,7 @@
   font-weight: 700;
   margin: auto;
   display: inline-block;
+  cursor: pointer;
   width: auto;
   padding: 12px 30px;
   text-align: center;
@@ -122,16 +123,31 @@ navbar {
   padding: 10px;
 }
 
+.logo-div{
+  text-align: center;
+}
+
 .logo {
   font-size: 30px;
   text-align: center;
+  color: var(--themeOne);
+  text-decoration: none;
+}
+
+.logo img{
+  height: 45px;
+}
+
+.logo-div a:hover{
+  color: var(--themeOne);
+  cursor: pointer;
 }
 
 .list-div li {
   margin: auto;
   font-weight: 700;
   text-decoration: none;
-  color: var(--themeOne);
+  color: #0066ff;
   text-transform: uppercase;
 }
 .list-div a {
@@ -354,6 +370,15 @@ navbar {
 
 /* Main content here  */
 
+/* Carousel div  */
+
+.head-carousel img{
+  width: 100%;
+  height: 70vh;
+}
+
+
+
 
 /* Banner at Home  */
 .banner-div {
@@ -491,14 +516,14 @@ navbar {
   }
 }
 
-/* Home page placement section  */
+/* Home page about section  */
 .home-about{
-  width: 90%;
+  width: 80%;
   margin: 2rem auto;
 }
 
 .home-about-info{
-  padding: 0 2rem;
+  padding: 0.5rem 0 2rem 4rem;
 }
 
 .home-about-info p{
@@ -507,21 +532,45 @@ navbar {
 
 .home-about-img img{
   width: 100%;
+  /* padding: 2rem; */
+}
+
+.home-placement-cell{
+  width: 80%;
+  margin: 2rem auto;
+
+}
+
+.home-about-info img{
+  display: none;
+}
+
+.home-placement-cell-info{
+  padding: 0.5rem 4rem 2rem 0;
 }
 
 @media only screen and (max-width: 768px){
   .home-about-img img {
     width: 80%;
     margin: auto;
-    display: flex;
+    display: none;
+  }
+  .home-about-info h3{
+    text-align: center;
   }
   .home-about-info{
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
+    padding: 1rem;
     text-align: justify;
   }
   .home-about{
     width: 95%;
     flex-direction: column-reverse;
+  }
+  .home-about-info img{
+    width: 100%;
+    padding: 1.5rem;
+    display: block;
   }
 }
 
@@ -538,3 +587,79 @@ navbar {
   font-size: 20px;
   padding: 2rem;
 }
+
+/* Courses div here  */
+
+.courses-card-head{
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.courses-intro{
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.courses-head{
+  padding: 0 2rem;
+}
+
+.courses-cards-here{
+  width: 100%;
+  display: flex;
+}
+
+.courses-card{
+  background: url(/imgs/demonslayer.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  margin: 1rem auto;
+  display: flex;
+}
+
+.courses-card-mask{
+  width: 125%;
+  height: 125%;
+  background-color: var(--themeTwo);
+  position: absolute;
+  top: -12.5%;
+  left: -12.5%;
+  opacity: 0;
+  z-index: 2;
+  transition: 0.35s ease-in 0s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.courses-card-mask:hover{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.courses-card-mask h3{
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.courses-card-mask p{
+  padding: 1rem;
+}
+
+.btn-contain{
+  width: max-content;
+  margin: auto;
+}
+
+
+
+
+

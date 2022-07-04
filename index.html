@@ -23,23 +23,23 @@
         <div class="promo-bar">
             <div class="row promo-bar-row">
                 <div class="col-md-12 promo">
-                    <p>Waste to one can be Gold to other</p>
+                    <p>Hustle with integrity</p>
                 </div>
             </div>
         </div>
         <div class="navbar-main">
             <div class="row navbar-main-row">
                 <div class="col-md-3 logo-div">
-                    <div class="logo">
-                        iTechnosoft
-                        <div class="mobile-menu" onclick="navBtnClicked()">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
+                    <a href="/index.html" class="logo">
+                        <img src="imgs/iTechnosoft pvt ltd Horizontal Logo.svg" alt="">
+                    </a>
+                    <div class="mobile-menu" onclick="navBtnClicked()">
+                        <i class="fa-solid fa-bars"></i>
                     </div>
                 </div>
                 <div id="NavlinksHere" class="col-md-9 list-div make-display-non">
                     <ul>
-                        <a href="/mycart">
+                        <a href="#courses">
                             <li>Courses</li>
                         </a>
                         <a href="/postad">
@@ -59,31 +59,133 @@
 
 
     <div id="homepage" class="maindata allpages container-fluid">
+        <div class="banner-row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner head-carousel">
+                    <div class="carousel-item active">
+                        <img src="imgs/aot.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/aot.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/aot.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
         <div class="row banner-row">
             <div class="banner-div outer-split-div">
                 <div class="container-split">
                     <div class="split split-left">
-                      <h2>Software Testing</h2>
-                      <a href="#" class="split-btn">Register Now!</a>
+                        <h2>Software Testing</h2>
+                        <a href="#" class="split-btn">Register Now!</a>
                     </div>
                     <div class="split split-right">
-                      <h2>Web Design</h2>
-                      <a href="#" class="split-btn">Register Now!</a>
+                        <h2>Web Design</h2>
+                        <a href="#" class="split-btn">Register Now!</a>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
 
-        <div class="row home-about">
-            <div class="col-md-4 home-about-img">
-                <img src="./imgs/aot.jpg" alt="">
+
+        <div class="row courses-intro" id="courses">
+            <div class="col-md-12 courses-head">
+                <h3>COURSES</h3>
             </div>
-            <div class="col-md-8 home-about-info">
+            <div class="courses-cards-here row">
+                <div class="col-md-3  courses-card">
+                    <h3 class="courses-card-head">
+                        Automated Testing
+                    </h3>
+                    <div class="courses-card-mask">
+                        <h3>Automated Testing</h3>
+
+                        <p>
+                            Automated testing is the application of software tools to automate a human-driven manual
+                            process of reviewing and validating a software product.
+                        </p>
+
+                        <div class="btn-contain">
+                            <div class="proj-btn">Read More</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3  courses-card">
+                    <h3 class="courses-card-head">
+                        Manual Testing
+                    </h3>
+                    <div class="courses-card-mask">
+                        <h3>Manual Testing</h3>
+
+                        <p>
+                            Manual testing is the process of manually testing software for defects. It requires a tester
+                            to play the role of an end user where by they use most of the application's features to
+                            ensure correct behaviour.
+                        </p>
+
+                        <div class="btn-contain">
+                            <div class="proj-btn">Read More</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3  courses-card">
+                    <h3 class="courses-card-head">
+                        Web Design
+                    </h3>
+                    <div class="courses-card-mask">
+                        <h3>Web Design</h3>
+
+                        <p>
+                            Web design refers to the design of websites that are displayed on the internet. It usually
+                            refers to the user experience aspects of website development rather than software
+                            development.
+                        </p>
+
+                        <div class="btn-contain">
+                            <div class="proj-btn">Read More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row home-about">
+            <div class="col-md-3 home-about-img">
+                <img src="./imgs/oneistoone.png" alt="">
+            </div>
+            <div class="col-md-9 home-about-info">
                 <h3>WHO ARE WE?</h3>
+                <img src="./imgs/oneistoone.png" alt="">
                 <p>
-                    We are professionals working in association with different industries like banking, insurance, manufacturing.
-                    IT services to provide consultation through skilled students and professionals. With years of experience 
-                    in the industry, we are trying to provide best quailty education and consultation for todays corporate 
+                    We are professionals working in association with different industries like banking, insurance,
+                    manufacturing.
+                    IT services to provide consultation through skilled students and professionals. With years of
+                    experience
+                    in the industry, we are trying to provide best quailty education and consultation for todays
+                    corporate
                     environment and equip students and professionals with cutting edge technologies for future.
                 </p>
                 <div class="transition-btn-here">
@@ -92,15 +194,27 @@
             </div>
         </div>
 
-        <div class="row home-placement-cell">
-            <div class="col-md-8 home-placement-cell-info">
-                <h3>PLACEMENT CELL</h3>
-                <p>
-                    
-                </p>
-            </div>
-            <div class="col-md-4 home-placement-cell-img">
+        <hr>
 
+        <div class="row home-placement-cell">
+            <div class="col-md-9 home-about-info home-placement-cell-info">
+                <h3>PLACEMENT CELL</h3>
+                <img src="./imgs/oneistoone.png" alt="">
+                <p>
+                    We are professionals working in association with different industries like banking, insurance,
+                    manufacturing.
+                    IT services to provide consultation through skilled students and professionals. With years of
+                    experience
+                    in the industry, we are trying to provide best quailty education and consultation for todays
+                    corporate
+                    environment and equip students and professionals with cutting edge technologies for future.
+                </p>
+                <div class="transition-btn-here">
+                    <div class="proj-btn">Placements</div>
+                </div>
+            </div>
+            <div class="col-md-3 home-about-img">
+                <img src="./imgs/oneistoone.png" alt="">
             </div>
         </div>
 
