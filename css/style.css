@@ -70,6 +70,29 @@
 }
 
 
+/* Page layouts  */
+
+.page-head-banner{
+  display: flex;
+}
+
+.page-box{
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgb(185, 166, 166);
+  margin: 300px auto 30px auto;
+
+}
+
+.page-box h1{
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+  .page-box{
+    width: 95%;
+  }
+}
 
 /* Navbar Css */
 
@@ -662,4 +685,126 @@ navbar {
 
 
 
+
+/* Contact Us page styles here  */
+
+.contact-head-banner{
+  background: url(../imgs/contactus.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100% 600px;
+}
+
+.location-map{
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-map iframe{
+  padding: 1.5rem;
+  height: 400px;
+}
+
+.location-map h5{
+  padding-left: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.location-map-hr{
+  display: none;
+}
+
+.other-contact-info{
+  padding-left: 1rem;
+}
+
+.contact-attri-head{
+  font-size: 18px;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.contact-attri-info{
+  margin-left: 1.5rem;
+}
+
+.contact-attri-info a{
+  color: var(--themeOne);
+  text-decoration: none;
+  
+}
+
+.query-form{
+  display: flex;
+  margin: auto;
+}
+
+.query-form-head h2{
+  padding-left: 1rem;
+}
+
+.query-info{
+  border-right: 1px solid black;
+}
+
+.query-info p{
+  padding: 0.5rem 1.5rem;
+  font-size: 17px;
+}
+
+.query-form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border: 1px solid grey;
+  /* border-radius: 15px; */
+}
+
+.query-form > *{
+  padding: 10px;
+}
+
+.label-query-form{
+  padding-bottom: 3px;
+}
+
+.query-form input{
+  width: 97%;
+  margin: auto;
+}
+
+.query-form textarea{
+  width: 97%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px){
+  .location-map{
+    border: none;
+  }
+  .location-map iframe{
+    padding: 0;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+  }
+  .location-map h5{
+    padding-top: 1rem;
+  }
+  .location-map-hr{
+    display: block;
+  }
+}
+
+/* About Us page styles here  */
+
+.about-head-banner{
+  background: url(../imgs/contactus.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100% 600px;
+}
 
