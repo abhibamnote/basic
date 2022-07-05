@@ -634,7 +634,7 @@ navbar {
 }
 
 .courses-card{
-  background: url(/imgs/demonslayer.jpg);
+  background: url(../imgs/demonslayer.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
