@@ -808,3 +808,53 @@ navbar {
   background-size: 100% 600px;
 }
 
+.about-members-card{
+  width: 90%;
+  margin: auto;
+}
+
+.member-card{
+  padding: 1rem;
+  margin: auto;
+}
+
+.member-card img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.member-name{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.member-role{
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(41, 39, 39, 0.778);
+}
+
+.dashed-line-below{
+  /* border-bottom: 3px dashed var(--themeOne); */
+  height: 5px;
+  background-image: linear-gradient(to right, rgb(9, 37, 50) 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 30px 3px;
+  background-repeat: repeat-x;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.team-info h2{
+  text-align: center;
+}
+
+.team-info-text{
+  text-align: center;
+  padding: 1rem 4rem;
+  font-weight: 500;
+  color: var(--themeTwo);
+}
