@@ -19,3 +19,14 @@ right.addEventListener("mouseleave", () =>
   container.classList.remove("hover-right")
 );
 
+function hideInput(){
+  document.getElementById('userOtherDegree').classList.add('hide-input')
+}
+
+function showInput(){
+  document.getElementById('userOtherDegree').classList.remove('hide-input')
+}
+
+function showApplyForm(){
+  document.getElementById('applyForm').classList.remove('apply-form-hide');
+}

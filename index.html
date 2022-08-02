@@ -93,16 +93,65 @@
             </div>
         </div>
 
-        <div class="row banner-row">
-            <div class="banner-div outer-split-div">
-                <div class="container-split">
-                    <div class="split split-left">
-                        <h2>Software Testing</h2>
-                        <a href="#" class="split-btn">Register Now!</a>
+        <div class="apply-form apply-form-hide" id="applyForm">
+            <div class="cross-btn" onclick="this.parentElement.classList.add('apply-form-hide')"> <i class="fa-solid fa-xmark"></i> </div>
+            <div class="form-card">
+                <div class="form-card-left">
+                    <img src="imgs/iTechnosoft pvt ltd Horizontal Logo.svg" alt="">
+
+                    <input type="text" placeholder="Name" id="userName">
+                    <input type="email" placeholder="Email" id="userEmail">
+                    <input type="text" placeholder="Mobile" id="userMobile">
+
+                    <label class="degree-label" for="">Degree</label>
+                    <div class="form-radio">
+                        <input type="radio" name="degree" id="" onclick="hideInput()" value="BE/ME/BTECH/MTECH">
+                        <label for="degree">BE/ME/BTECH/MTECH</label>
                     </div>
-                    <div class="split split-right">
-                        <h2>Web Design</h2>
-                        <a href="#" class="split-btn">Register Now!</a>
+
+                    <div class="form-radio">
+                        <input type="radio" name="degree" id="" onclick="hideInput()" value="BSC/MSC">
+                        <label for="degree">BSC/MSC</label>
+                    </div>
+
+                    <div class="form-radio">
+                        <input type="radio" name="degree" id="" onclick="hideInput()" value="BCOM/MCOM">
+                        <label for="degree">BCOM/MCOM</label>
+                    </div>
+
+                    <div class="form-radio">
+                        <input type="radio" name="degree" id="" onclick="hideInput()" value="BCA/MCA">
+                        <label for="degree">BCA/MCA</label>
+                    </div>
+
+                    <div class="form-radio">
+                        <input type="radio" name="degree" id="" onclick="showInput()" value="other">
+                        <label for="degree">Other</label>
+                    </div>
+
+                    <input class="hide-input" type="text" placeholder="Degree Name" id="userOtherDegree">
+
+                    <input type="text" placeholder="Year of passing" id="userPassing">
+
+                    <div class="form-btn">Submit</div>
+                </div>
+                <div class="form-card-right">
+                    <div class="img-form-here">
+
+                    </div>
+                    <div class="course-info-form">
+                        <h4>Training Covers -</h4>
+                        <p>
+                            ITECHNOSOFT PRIVATE LIMITED is providing an certified corporate training in Software Testing
+                            with all updated topics according to IT industry requirement.
+                        </p>
+                        <ul>
+                            <li>Manual Testing</li>
+                            <li>Automation Testing</li>
+                            <li>API Testing</li>
+                            <li>SQL</li>
+                        </ul>
+                        <div class="course-start">Course starts from 4 August</div>
                     </div>
                 </div>
             </div>
@@ -170,7 +219,29 @@
             </div>
         </div>
 
+
+
+
+
+
+
+        <div class="row banner-row">
+            <div class="banner-div outer-split-div">
+                <div class="container-split">
+                    <div class="split split-left">
+                        <h2>Software Testing</h2>
+                        <a onclick="showApplyForm()" class="split-btn">Register Now!</a>
+                    </div>
+                    <div class="split split-right">
+                        <h2>Web Design</h2>
+                        <a href="#" class="split-btn">Register Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <hr>
+
 
         <div class="row home-about">
             <div class="col-md-3 home-about-img">
@@ -218,6 +289,10 @@
             </div>
         </div>
 
+
+
+
+
     </div>
 
 
@@ -241,7 +316,7 @@
             <div class="col-md-7 footer-links">
                 <div class="social-links"
                     style="align-items: center;display: flex;justify-content: center;font-family: arial;">
-                    
+
                     <div class="card-Box">
                         <div class="card2 facebook">
                             <div class="card-front"><a href="" target="_blank" rel="noopener noreferrer"><i
