@@ -894,6 +894,45 @@ navbar {
   }
 }
 
+/* Course page info  */
+
+.course-desc{
+  margin: 0 3rem;
+}
+
+.course-desc h4 i{
+  font-size: 20px;
+}
+
+.course-desc h5{
+  color: #212529ab;
+}
+
+.course-desc-img{
+  display: flex;
+}
+
+.course-desc p{
+  width: 90%;
+}
+
+.course-desc img{
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.course-structure{
+}
+
+.structure-accord{
+  padding: 1rem 1rem 1rem 3rem;
+}
+
+.course-faqs{
+  padding: 1rem 1rem 1rem 3rem;
+}
+
+
 
 /* Form css here  */
 
