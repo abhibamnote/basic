@@ -1010,12 +1010,12 @@ navbar {
 
 .img-form-here{
   width: 100%;
-  height: 50%;
+  height: 45%;
 }
 
 .course-info-form{
   color: white;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .course-info-form ul{
