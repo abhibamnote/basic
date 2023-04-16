@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 * {
   --themeOne: rgb(9, 37, 50);
   --themeTwo: rgb(0, 127, 144);
@@ -9,7 +12,8 @@
   --minimize-width: 25%;
   --transition-speed: 1s;
 
-  font-family: "Neuton", serif;
+  font-family: 'Inter', sans-serif;
+  /* font-family: "Neuton", serif; */
   margin: 0;
   padding: 0;
 }
